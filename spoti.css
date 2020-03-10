@@ -124,13 +124,32 @@
     margin-left: 10px;
 }
 /* -------------main */
+.lista-flex {
+    display: flex;
+    justify-content: center;
+}
+.listetta {
+    text-align: center;
+    margin-top: 30px;
+}
+.listetta ul {
+    width: 800px;
+    display: block;
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+.listetta li {
+    display: inline;
+
+}
 .principale {
     background-color:#141922;
     text-align: right;
     position: relative;
     height: 100vh;
     width: 88%;
-    
+
 }
 .principale .navbar-default {
     background-color: #2c3e50;
@@ -164,6 +183,30 @@
     margin-top: 20px;
     margin-right: 20px;
 }
+.scritta {
+    text-align: left;
+    margin-left: 20px;
+}
+#rece {
+    color: #ffffff;
+    font-size: 27px;
+
+}
+/* albummmmmmmmmmmmmmmmmm */
+.container-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.album {
+    margin: 10px;
+    height: 150px;
+    width: 100%;
+}
+
+
+
 
 
 /* footerrrrrrrrrrrrrrrrrrrrrrrrr */
