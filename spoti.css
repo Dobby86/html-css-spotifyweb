@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.laterale {
+    background-color: yellow;
+
+    position: relative;
+    height: 100vh;
+    width: 20%;
+}
+
+
+/* ------------------header */
+
+
+.lista1 {
+    width: 100%;
+    background-color: pink;
+}
+.laterale, .principale,.player {
+  float: left;
+  border:1px solid black;
+}
+/* -------------main */
+.principale {
+    background-color: red;
+
+    position: relative;
+    height: 100vh;
+    width: 80%;
+}
+.scroll {
+    height: 100px;
+    background-color: pink;
+    width: 100%;
+}
+
+
+/* footerrrrrrrrrrrrrrrrrrrrrrrrr */
+.player {
+    height: 500px;
+    background-color: orange;
+    width: 100%;
+}
