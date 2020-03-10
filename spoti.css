@@ -3,50 +3,134 @@
     padding: 0;
     box-sizing: border-box;
 }
-.laterale {
-    background-color: yellow;
 
+
+/* ------------------header */
+.laterale {
+    background-color: black;
     position: relative;
     height: 100vh;
     width: 12%;
 }
-
-
-/* ------------------header */
-#logo {
-    height: 50px;
-}
 #lista11 {
+    margin-left: 15px;
     list-style-type: none;
-    margin:2px;
-    padding: 0;
 }
-#lista11 i {
-    width: 350px;
-    margin:5px;
+
+#logo {
+    height: 40px;
+    color: #b2b5b8;
+    margin: 10px;
+}
+#lista11 li {
+    margin: 0;
     padding: 0;
-    color: white;
+    width: 400px;
+    color: #b2b5b8;
 }
 #lista11 a {
-    padding:4px;
     display: inline-block;
-    color: white;
+    padding: 4px;
+    color: #b2b5b8;
 }
+#lista11 i {
+    margin:4px;
+    height: 20px;
+    font-size: 15px;
+}
+#lista22 li {
+    margin:6px;
+    padding: 1px;
+    width: 400px;
+    color: #b2b5b8;
+
+}
+#lista22 a {
+    display: inline-block;
+    padding: 4px;
+    color: #b2b5b8;
+}
+#lista22 i {
+    margin:15px;
+    height: 80px;
+    font-size: 60px;
+}
+#playlist {
+    color:#b2b5b8;
+    font-size: 15px;
+    margin-left: 20px;
+}
+#lista22 {
+    margin-left: 15px;
+    list-style-type: none;
+}
+ a :hover{
+    color: white;
+    list-style-type: none;
+
+}
+#aparte {
+    color: white;
+    list-style-type: none;
+    font-size:5px;
+    display: inline-block;
+}
+
 .lista1 {
-    width: 100%;
+    width: 12vh;
     background-color: black;
+    /* height: 100vh; */
 }
 .laterale, .principale,.player {
   float: left;
   border:1px solid black;
 }
+
+.installa {
+    height: 100px;
+    background-color: black;
+    border-bottom: 1px solid #b2b5b8;
+    margin: 10px;
+    margin-top: 100px;
+}
+.installa i {
+    color:#b2b5b8;
+    font-size:15px;
+    margin-left: 5px;
+    margin-top: 70px;
+}
+.iconcina {
+    margin: 10px;
+    background-color: black;
+    margin-top: 10px;
+}
+#app {
+    display: inline-block;
+    color: #b2b5b8;
+    font-size: 15px;
+    margin: 6px;
+
+}
+#faccina {
+    height: 40px;
+    display: inline-block;
+    background-color: #b2b5b8;
+    border-radius: 100px;
+}
+#john {
+    color:#b2b5b8;
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 10px;
+}
 /* -------------main */
 .principale {
-    background-color: red;
+    background-color:#141922;
     text-align: right;
     position: relative;
     height: 100vh;
     width: 88%;
+    
 }
 .principale .navbar-default {
     background-color: #2c3e50;
@@ -64,15 +148,22 @@
     left: 12%;
     width: 88%;
     height: 100px;
-    background-color: rgba(12,15,20,0,5);
+    background-color: rgba(12,15,20,0.5);
     position: fixed;
 }
 #upgrade {
      border-radius: 20px;
      width: 200px;
-     height:50px;
-}
+     height:45px;
+     color: #b2b5b8;
+     background-color:  rgba(12,15,20,0.5);
 
+
+}
+.bottone {
+    margin-top: 20px;
+    margin-right: 20px;
+}
 
 
 /* footerrrrrrrrrrrrrrrrrrrrrrrrr */
@@ -83,11 +174,11 @@
 }
 #madonna {
     position: fixed;
-    background-color: pink;
+    background-color: #282828;
 }
 .pastore .navbar-default {
     background-color: #2c3e50;
     background-image: none;
     border-color: #2c3e50;
-    height: 150px;
+    height: 100px;
 }
