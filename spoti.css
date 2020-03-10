@@ -8,16 +8,33 @@
 
     position: relative;
     height: 100vh;
-    width: 20%;
+    width: 12%;
 }
 
 
 /* ------------------header */
-
-
+#logo {
+    height: 50px;
+}
+#lista11 {
+    list-style-type: none;
+    margin:2px;
+    padding: 0;
+}
+#lista11 i {
+    width: 350px;
+    margin:5px;
+    padding: 0;
+    color: white;
+}
+#lista11 a {
+    padding:4px;
+    display: inline-block;
+    color: white;
+}
 .lista1 {
     width: 100%;
-    background-color: pink;
+    background-color: black;
 }
 .laterale, .principale,.player {
   float: left;
@@ -26,21 +43,51 @@
 /* -------------main */
 .principale {
     background-color: red;
-
+    text-align: right;
     position: relative;
     height: 100vh;
-    width: 80%;
+    width: 88%;
+}
+.principale .navbar-default {
+    background-color: #2c3e50;
+    background-image: none;
+    border-color: #2c3e50;
+    height: 150px;
 }
 .scroll {
     height: 100px;
-    background-color: pink;
     width: 100%;
+
 }
+
+#gesu {
+    left: 12%;
+    width: 88%;
+    height: 100px;
+    background-color: rgba(12,15,20,0,5);
+    position: fixed;
+}
+#upgrade {
+     border-radius: 20px;
+     width: 200px;
+     height:50px;
+}
+
 
 
 /* footerrrrrrrrrrrrrrrrrrrrrrrrr */
 .player {
-    height: 500px;
+    /* height: 500px; */
     background-color: orange;
     width: 100%;
+}
+#madonna {
+    position: fixed;
+    background-color: pink;
+}
+.pastore .navbar-default {
+    background-color: #2c3e50;
+    background-image: none;
+    border-color: #2c3e50;
+    height: 150px;
 }
