@@ -3,13 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+[class*="col-"] {
+  float: left;
+ 
+}
 
 /* ------------------header */
 .laterale {
     background-color: black;
     position: relative;
-    height: 100vh;
+    height: 1000px;
     width: 12%;
 }
 #lista11 {
@@ -123,31 +126,37 @@
     display: inline-block;
     margin-left: 10px;
 }
-/* -------------main */
+/* -------------main --------------------------------------*/
 .lista-flex {
     display: flex;
     justify-content: center;
 }
 .listetta {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .listetta ul {
     width: 800px;
     display: block;
     margin:0;
-    padding: 0;
+    padding: 5px;
     list-style-type: none;
+    color: white;
 }
 .listetta li {
     display: inline;
+    margin:6px;
+    padding: 1px;
 
+}
+.listetta a {
+    color:#b2b5b8;
 }
 .principale {
     background-color:#141922;
     text-align: right;
     position: relative;
-    height: 100vh;
+    height: 1000px;
     width: 88%;
 
 }
@@ -187,12 +196,18 @@
     text-align: left;
     margin-left: 20px;
 }
+
+/* albummmmmmmmmmmmmmmmmm */
 #rece {
     color: #ffffff;
     font-size: 27px;
 
 }
-/* albummmmmmmmmmmmmmmmmm */
+#rece2 {
+    color: #ffffff;
+    font-size: 27px;
+
+}
 .container-flex {
     display: flex;
     flex-direction: row;
@@ -204,8 +219,16 @@
     height: 150px;
     width: 100%;
 }
-
-
+.titoli {
+    color:white;
+    font-size: 17px;
+    text-align: center;
+}
+.sottotitoli {
+    color:#b2b5b8;
+    font-size: 12px;
+    text-align: center;
+}
 
 
 
