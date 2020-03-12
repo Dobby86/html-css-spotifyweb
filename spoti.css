@@ -60,6 +60,18 @@
       .barra {
          font-size: 30%;
       }
+      .fine i {
+          font-size: 5px;
+      }
+      .selettori i {
+          font-size: 4px;
+      }
+      .listetta li {
+          font-size: 22px;
+
+      }
+
+
 
 
 
@@ -96,6 +108,9 @@
           height: 2000px;
 
       }
+      .listetta li {
+          font-size: 29px;
+      }
 
 
 
@@ -107,6 +122,7 @@
     .container-flex  {
         flex-wrap: wrap;
     }
+
     #lista11fantasma {
         display: none;
     }
@@ -125,6 +141,9 @@
 
         font-size: 90%;
 
+     }
+     .listetta li {
+         font-size: 20px;
      }
 
 }
@@ -437,6 +456,12 @@
     height: 250px;
 
 }
+.album :hover {
+    color: white;
+    padding-left: 14px; font-weight: bold; background-image: url( <i class="far fa-play-circle"></i>);
+    background-position: 0 -11px;
+    background-repeat: no-repeat;
+ }
 .titoli {
     color:white;
     font-size: 17px;
@@ -513,13 +538,56 @@
     font-size: 20px;
 }
 .selettori i {
-    margin: 15px;
+    margin: 5px;
     color: #b2b5b8;
     font-size: 20px;
+    text-align: center;
+
 }
+
 .selettoripic i {
     margin: 1px;
     color: #b2b5b8;
     font-size: 15px;
     margin-right: 40px;
+}
+.sel {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.disotto  {
+    border-bottom: 4px solid white;
+    width: 200px;
+    align-content: center;
+    margin-left: 52px;
+    margin-top: -18px;
+    /* margin-bottom: 5px; */
+
+}
+.disopra {
+    border-bottom: 3px solid grey;
+    width: 500px;
+    align-content: center;
+    margin-bottom: -1px;
+
+}
+.disopra i{
+    margin-left: 50px;
+}
+.zero {
+    margin-top: 30px;
+    margin-right: 25px;
+
+}
+
+.quattro {
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.time {
+    color: white;
 }
