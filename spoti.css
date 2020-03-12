@@ -12,8 +12,10 @@
           width: 250px;
 
       }
+
       .listetta li {
           font-size: 70%;
+          flex-wrap: wrap;
       }
       .principale {
 
@@ -47,6 +49,16 @@
       }
       #logo {
           display: none;
+      }
+      .daje #app {
+          display: none;
+      }
+      .laterale>.installa-flex , .iconcina-flex {
+          margin-top: 500px;
+
+      }
+      .barra {
+         font-size: 30%;
       }
 
 
@@ -130,7 +142,7 @@
         display: none;
     }
 }
-/* ------------------header */
+/* ------------------header ---------------------*/
 #spotifyfanta {
     font-size: 40px;
     color: white;
@@ -253,15 +265,22 @@
 }
 
 .installa-flex {
-    height: 200px;
+    /* height: 100px; */
     background-color: black;
     border-bottom: 1px solid #b2b5b8;
     margin: 10px;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
+.daje {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 
+}
 .installa-flex i {
     color:#b2b5b8;
     font-size:15px;
@@ -272,6 +291,9 @@
     margin: 10px;
     background-color: black;
     margin-top: 10px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
 }
 
 #app {
@@ -282,17 +304,17 @@
 
 }
 #faccina {
-    height: 40px;
-    display: inline-block;
-    background-color: #b2b5b8;
+    font-size: 30px;
+    color: #b2b5b8;
     border-radius: 100px;
 }
-#john {
+/* #john {
     color:#b2b5b8;
     font-size: 15px;
     display: inline-block;
     margin-left: 10px;
-}
+    text-align: center;
+} */
 /* -------------main --------------------------------------*/
 .lista-flex {
     display: flex;
@@ -458,16 +480,46 @@
 /* footerrrrrrrrrrrrrrrrrrrrrrrrr */
 .player {
     /* height: 500px; */
-    background-color: orange;
+    /* background-color: #282828; */
     width: 100%;
+
+}
+.barra {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fine {
+
 }
 #madonna {
     position: fixed;
     background-color: #282828;
 }
-.pastore .navbar-default {
+.lettore-flex .navbar-default {
     background-color: #2c3e50;
     background-image: none;
     border-color: #2c3e50;
     height: 100px;
+}
+#piccola {
+    height: 50px;
+    margin: 20px;
+}
+.fine i {
+    margin: 15px;
+    color: #b2b5b8;
+    font-size: 20px;
+}
+.selettori i {
+    margin: 15px;
+    color: #b2b5b8;
+    font-size: 20px;
+}
+.selettoripic i {
+    margin: 1px;
+    color: #b2b5b8;
+    font-size: 15px;
+    margin-right: 40px;
 }
