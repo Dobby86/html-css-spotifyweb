@@ -5,8 +5,9 @@
 }
 [class*="col-"] {
   float: left;
-
 }
+
+
 @media screen and  (max-width: 767px)  {
     .album img {
           width: 250px;
@@ -144,6 +145,9 @@
      }
      .listetta li {
          font-size: 20px;
+     }
+     .selettori {
+         width: 70%;
      }
 
 }
@@ -456,12 +460,11 @@
     height: 250px;
 
 }
-.album :hover {
-    color: white;
-    padding-left: 14px; font-weight: bold; background-image: url( <i class="far fa-play-circle"></i>);
-    background-position: 0 -11px;
-    background-repeat: no-repeat;
- }
+/* ------------test--------------------------- */
+
+
+
+ /* /////////////////test */
 .titoli {
     color:white;
     font-size: 17px;
@@ -503,6 +506,10 @@
 
 
 /* footerrrrrrrrrrrrrrrrrrrrrrrrr */
+.fine a {
+    color: white;
+}
+
 .player {
     /* height: 500px; */
     /* background-color: #282828; */
@@ -546,7 +553,7 @@
 }
 
 .selettoripic i {
-    margin: 1px;
+
     color: #b2b5b8;
     font-size: 15px;
     margin-right: 40px;
@@ -564,8 +571,32 @@
     width: 200px;
     align-content: center;
     margin-left: 52px;
-    margin-top: -18px;
-    /* margin-bottom: 5px; */
+    margin-top: -17px;
+    position: absolute;
+    border-radius: 60%;
+
+}
+.difianco {
+    border-bottom: 4px solid white;
+    width: 50px;
+    align-content: center;
+    margin-left: 177px;
+    margin-right: 100px;
+    margin-top: 22px;
+    align-items: center;
+    border-radius: 60%;
+
+
+}
+.difianco2 {
+    border-bottom: 4px solid grey;
+    width: 50px;
+    align-content: center;
+    margin-left: -100px;
+    margin-right: 20px;
+    margin-top: 22px;
+    align-items: center;
+
 
 }
 .disopra {
@@ -573,6 +604,8 @@
     width: 500px;
     align-content: center;
     margin-bottom: -1px;
+    position: relative;
+
 
 }
 .disopra i{
@@ -581,8 +614,12 @@
 .zero {
     margin-top: 30px;
     margin-right: 25px;
+}
+.comandi {
+    margin-right: -200px;
 
 }
+
 
 .quattro {
     margin-top: 30px;
@@ -590,4 +627,69 @@
 }
 .time {
     color: white;
+}
+.selettoripic {
+    display: flex;
+    align-items: flex-start;
+
+    flex-direction: row;
+
+}
+
+.album {
+
+    position: relative;
+}
+
+.album2 {
+    position: relative;
+}
+.album3 {
+    position: relative;
+}
+
+/* .................................. */
+.immagineplus {
+    opacity: 0.5;
+    background-image: rgba(255, 140, 140, 0.7);
+    color: green;
+}
+.album3 .immagineplus {
+    position: absolute;
+    width:100px;
+    height:100px;
+    top:40%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    display:none;
+}
+.album2 .immagineplus {
+    position: absolute;
+    width:100px;
+    height:100px;
+    top:40%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    display:none;
+}
+.album .immagineplus {
+    position: absolute;
+    width:100px;
+    height:100px;
+    top:40%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    display:none;
+
+}
+.album:hover .immagineplus  {
+    display: block;
+
+}
+.album2:hover .immagineplus {
+    display: block;
+}
+
+.album3:hover .immagineplus {
+    display: block;
 }
