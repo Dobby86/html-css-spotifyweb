@@ -12,6 +12,37 @@
           width: 250px;
 
       }
+      .principale {
+
+          height: 1500px;
+
+      }
+      .lista1-flex  {
+
+       display: none;
+
+      }
+      .sinistra-flex li  {
+
+         display: none;
+
+      }
+      .sinistra #playlist {
+          display: none;
+      }
+      #lista11 {
+          display: none;
+      }
+      #playlist {
+          display: none;
+      }
+      .iconcina-flex {
+          display: none;
+      }
+      .installa-flex {
+          display: none;
+      }
+
 
 
 }
@@ -24,10 +55,26 @@
 
     }
     .album img {
-          width: 190px;
+          width: 250px;
           margin: 10px;
 
       }
+      .lista1-flex {
+
+        font-size:80%;
+        margin-left: -10px;
+
+      }
+      .sinistra-flex li {
+
+         font-size: 90%;
+
+      }
+      #lista11fantasma {
+          display: none;
+      }
+
+
 
 
 
@@ -37,24 +84,66 @@
     .container-flex  {
         flex-wrap: wrap;
     }
+    #lista11fantasma {
+        display: none;
+    }
    .album img {
-         width: 190px;
+         width: 180px;
          margin: 10px;
+
+     }
+     .lista1-flex {
+
+       font-size:80%;
+       margin-left: -10px;
+
+     }
+     .sinistra-flex li {
+
+        font-size: 90%;
 
      }
 
 }
+@media screen and (min-width:1192px)  {
 
+
+    #lista11fantasma {
+        display: none;
+    }
+}
 /* ------------------header */
 .laterale {
     background-color: black;
     position: relative;
     height: 1000px;
     width: 12%;
+    position: fixed;
+
 }
 #lista11 {
     margin-left: 15px;
     list-style-type: none;
+}
+#lista11fantasma {
+    margin-left: 15px;
+    list-style-type: none;
+}
+#lista11fantasma li {
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    color: #b2b5b8;
+}
+#lista11fantasma a {
+    display: inline-block;
+    padding: 4px;
+    color: #b2b5b8;
+}
+#lista11fantasma i {
+    margin:4px;
+    height: 20px;
+    font-size: 15px;
 }
 
 #logo {
@@ -65,7 +154,7 @@
 #lista11 li {
     margin: 0;
     padding: 0;
-    width: 400px;
+    width: 500px;
     color: #b2b5b8;
 }
 #lista11 a {
@@ -81,9 +170,12 @@
 #lista22 li {
     margin:6px;
     padding: 1px;
-    width: 400px;
+    width: 500px;
     color: #b2b5b8;
 
+}
+#cip {
+    display: inline-block;
 }
 #lista22 a {
     display: inline-block;
@@ -91,9 +183,12 @@
     color: #b2b5b8;
 }
 #lista22 i {
-    margin:15px;
-    height: 80px;
-    font-size: 60px;
+    margin:4px;
+    height: 20px;
+    font-size: 15px;
+}
+#lista22 fa-plus-square {
+    height: 10px;
 }
 #playlist {
     color:#b2b5b8;
@@ -116,34 +211,46 @@
     display: inline-block;
 }
 
-.lista1 {
-    width: 12vh;
+.lista1-flex {
+    /* width: 200px; */
     background-color: black;
-    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
 }
+.sinistra-flex {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+
+}
+
 .laterale, .principale,.player {
   float: left;
   border:1px solid black;
 }
 
-.installa {
-    height: 100px;
+.installa-flex {
+    height: 200px;
     background-color: black;
     border-bottom: 1px solid #b2b5b8;
     margin: 10px;
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
 }
-.installa i {
+
+.installa-flex i {
     color:#b2b5b8;
     font-size:15px;
     margin-left: 5px;
     margin-top: 70px;
 }
-.iconcina {
+.iconcina-flex {
     margin: 10px;
     background-color: black;
     margin-top: 10px;
 }
+
 #app {
     display: inline-block;
     color: #b2b5b8;
@@ -192,9 +299,12 @@
 .principale {
     background-color:#141922;
     /* text-align: right; */
+    /* position: relative; */
+    height: 1900px;
+    width:88%;
+    z-index: 1;
     position: relative;
-    height: 1000px;
-    width: 88%;
+    margin-left: 12%;
 
 }
 .principale .navbar-default {
@@ -232,8 +342,11 @@
     align-items: flex-start;
     justify-content: flex-end;
 }
+.
+
+/* albummmmmmmmmmmmmmmmmm */
 .scritta-flex {
-    /* text-align: left; */
+
     margin-left: 0px;
     display: flex;
     align-items: flex-start;
@@ -241,8 +354,13 @@
     flex-direction:row;
 
 }
+.scrittine {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction:row;
 
-/* albummmmmmmmmmmmmmmmmm */
+}
 
 
 #rece {
@@ -278,6 +396,25 @@
     color:#b2b5b8;
     font-size: 12px;
     text-align: center;
+}
+.sottotitoli2 {
+    color:#b2b5b8;
+    font-size: 12px;
+    text-align: center;
+
+}
+.container2-flex {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: flex-start;
+
+}
+.album2 img {
+    margin: 10px;
+    height: 250px;
+
 }
 
 
