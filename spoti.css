@@ -68,9 +68,14 @@
           font-size: 4px;
       }
       .listetta li {
-          font-size: 22px;
+          font-size: 20px;
 
       }
+      .listetta>.cri {
+          width: 600px;
+
+      }
+
 
 
 
@@ -110,7 +115,12 @@
 
       }
       .listetta li {
-          font-size: 29px;
+          font-size: 18px;
+
+      }
+      .listetta>.cri {
+          width: 700px;
+
       }
 
 
@@ -209,16 +219,19 @@
     color: #b2b5b8;
     margin: 10px;
 }
+
 #lista11 li {
     margin: 0;
     padding: 0;
     width: 500px;
     color: #b2b5b8;
+
 }
 #lista11 a {
     display: inline-block;
     padding: 4px;
     color: #b2b5b8;
+    text-decoration: none;
 }
 #lista11 i {
     margin:4px;
@@ -230,6 +243,7 @@
     padding: 1px;
     width: 500px;
     color: #b2b5b8;
+    text-decoration: none;
 
 }
 #cip {
@@ -239,6 +253,7 @@
     display: inline-block;
     padding: 4px;
     color: #b2b5b8;
+    text-decoration: none;
 }
 #lista22 i {
     margin:4px;
@@ -349,16 +364,30 @@
     margin:0;
     padding: 5px;
     list-style-type: none;
-    color: white;
+    text-decoration: none;
+
 }
 .listetta li {
     display: inline;
     margin:6px;
     padding: 1px;
+    text-decoration: none;
 
 }
+a:visited {
+    color: white;
+    text-decoration: none;
+
+}
+a:hover {
+    color:green;
+
+}
+
 .listetta a {
     color:#b2b5b8;
+    text-decoration: none;
+
 }
 .principale {
     background-color:#141922;
