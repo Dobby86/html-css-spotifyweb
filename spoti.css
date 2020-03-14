@@ -564,26 +564,28 @@ span:hover {
 
     display: flex;
     flex-direction: row;
-    background-color: red;
+
     width: 33%;
     justify-content:flex-start;
     align-items: center;
+    background-color: #141922;
 }
 .barra-due {
 
     display: flex;
     flex-direction: row;
-    background-color: green;
-    width: 33%;
+
+    width: 34%;
     justify-content:center;
     height: 100px;
     align-items:center;
+    background-color: #141922;
 }
 .barra-tre {
-    
+
     display: flex;
     flex-direction: row;
-    background-color:orange;
+    background-color: #141922;
     width: 33%;
     justify-content:center;
     align-items: center;
@@ -592,14 +594,16 @@ span:hover {
 
 .barra1 {
     background-color: white;
-    width: 150px;
+    width: 120px;
     /* height: 200px; */
+    background-color: #141922;
 
 }
 .barra2 {
     background-color: grey;
     width: 200px;
     /* height: 200px; */
+    background-color: #141922;
 }
 .barra2>a {
     font-size: 16px;
@@ -607,8 +611,8 @@ span:hover {
 }
 #piccola {
     height: 100px;
-    width: 100px;
-    margin: 10px;
+    width: 80px;
+    margin: 20px;
 
 }
 .container-flex2{
