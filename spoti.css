@@ -4,202 +4,7 @@
     box-sizing: border-box;
 }
 
-/* @media screen and  (max-width: 767px)  {
-    .album img {
-          width: 250px;
 
-      }
-
-      .listetta li {
-          font-size: 70%;
-          flex-wrap: wrap;
-      }
-      .principale {
-
-          height: 2000px;
-
-      }
-      .lista1-flex  {
-
-       display: none;
-
-      }
-      .sinistra-flex li  {
-
-         display: none;
-
-      }
-      .sinistra #playlist {
-          display: none;
-      }
-      #lista11 {
-          display: none;
-      }
-      #playlist {
-          display: none;
-      }
-      .iconcina-flex {
-          display: none;
-      }
-      .installa-flex {
-          display: none;
-      }
-      #logo {
-          display: none;
-      }
-      .daje #app {
-          display: none;
-      }
-      .laterale>.installa-flex , .iconcina-flex {
-          margin-top: 500px;
-
-      }
-      .barra {
-         font-size: 30%;
-      }
-      .fine i {
-          font-size: 5px;
-      }
-      .selettori i {
-          font-size: 4px;
-      }
-      .listetta li {
-          font-size: 20px;
-
-      }
-      .listetta>.cri {
-          width: 600px;
-
-      }
-      .comandi {
-          width: 40%;
-          margin-top: 0px;
-          margin-left: -65px;
-
-      }
-      .disopra {
-          font-size: 50px;
-          margin-top: -100px;
-          width: 100px;
-          height: 70px;
-      }
-      .disotto {
-          width: 200px;
-          height: 70px;
-          margin-top: -300px;
-      }
-      .principale {
-        padding-bottom: 1500px;
-      }
-
-
-
-}
-@media screen and (min-width:768px) and (max-width: 991px)  {
-.container-flex  {
-        flex-wrap: wrap;
-        align-items: flex-start;
-        flex-direction:row;
-        display: flex;
-
-    }
-    .album img {
-          width: 250px;
-          margin: 10px;
-
-      }
-      .lista1-flex {
-
-        font-size:80%;
-        margin-left: -10px;
-
-      }
-      .sinistra-flex li {
-
-         font-size: 90%;
-
-      }
-      #lista11fantasma {
-          display: none;
-      }
-      .principale {
-
-          height: 2000px;
-
-      }
-      .listetta li {
-          font-size: 18px;
-
-      }
-      .listetta>.cri {
-          width: 700px;
-
-      }
-      #lista11> li {
-          font-size: 8px;
-
-
-      }
-      #lista22>li {
-         font-size: 9px;
-      }
-      .principale {
-        padding-bottom: 1800px;
-      }
-
-
-
-}
-
-@media screen and (min-width:992px) and (max-width: 1200px)  {
-
-    .container-flex  {
-        flex-wrap: wrap;
-    }
-
-    #lista11fantasma {
-        display: none;
-    }
-   .album img {
-         width: 180px;
-         margin: 10px;
-
-     }
-     .lista1-flex {
-
-       font-size:80%;
-       margin-left: -10px;
-
-     }
-     .sinistra-flex li {
-
-        font-size: 90%;
-
-     }
-     .listetta li {
-         font-size: 20px;
-     }
-     .selettori {
-         width: 70%;
-     }
-
-
-
-}
-@media screen and (min-width:1192px)  {
-
-
-    #lista11fantasma {
-        display: none;
-    }
-}
-@media screen and (min-width:768px)  {
-
-
-    #spotifyfanta {
-        display: none;
-    }
-} */
 /* ------------------header ---------------------*/
 #spotifyfanta {
     font-size: 40px;
@@ -513,8 +318,6 @@ span:hover {
     height: 250px;
 
 }
-/* ------------test--------------------------- */
-
 
 
  /* /////////////////test */
@@ -568,44 +371,95 @@ span:hover {
     width: 33%;
     justify-content:flex-start;
     align-items: center;
-    background-color: #141922;
+    background-color: #282828;
 }
 .barra-due {
 
+    flex-wrap: wrap;
     display: flex;
     flex-direction: row;
-
     width: 34%;
     justify-content:center;
     height: 100px;
     align-items:center;
-    background-color: #141922;
+    background-color: #282828;
 }
 .barra-tre {
 
     display: flex;
     flex-direction: row;
-    background-color: #141922;
+    background-color: #282828;
     width: 33%;
     justify-content:center;
     align-items: center;
     height: 100px;
+
 }
 
 .barra1 {
-    background-color: white;
+
     width: 120px;
     /* height: 200px; */
-    background-color: #141922;
+    background-color: #282828;
 
 }
 .barra2 {
-    background-color: grey;
-    width: 200px;
-    /* height: 200px; */
-    background-color: #141922;
+    width: 300px;
+    margin-top: 20px;
+
 }
+.barra22 {
+    background-color: grey;
+    width: 350px;
+    height: 3px;
+    /* margin-top: 30px; */
+    position: relative;
+    margin-bottom: 30px;
+    flex-grow: 1;
+
+}
+.barra222 {
+    background-color: green;
+    width:200px;
+    height: 3px;
+    margin-top:12px;
+
+    position: absolute;
+    display: none;
+    margin-left: -223px;
+
+}
+
+.barra-due:hover .barra222 {
+    display: block;
+}
+.barra333 {
+    background-color: green;
+    width:90px;
+    height: 3px;
+    position: absolute;
+    display: none;
+    /* margin-left: -223px; */
+
+}
+.barra-tre:hover .barra333 {
+    display: block;
+}
+.barra33 {
+    background-color: grey;
+    width:200px;
+    height: 3px;
+    /* margin-top: 30px; */
+    border-radius: 50px;
+    position: relative;
+
+}
+
 .barra2>a {
+    font-size: 18px;
+    margin: 10px;
+}
+.barra3>a {
     font-size: 16px;
     margin: 10px;
 }
@@ -623,6 +477,24 @@ span:hover {
         background-color: #141922; */
 
 }
+#zero {
+    margin-top: -29px;
+    color: white;
+}
+#quattro {
+    color: white;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
 /* ///////////////////////////////////////////vecchio */
 .fine a {
     color: white;
@@ -803,15 +675,7 @@ span:hover {
       .principale {
         padding-bottom: 1800px;
       }
-      .difianco2 .difianco {
-          display: none;
-      }
-      .quattro .zero .comandi {
-          display: none;
-      }
-      .fine {
-          font-size: 10px;
-      }
+
 
 
 }
@@ -898,9 +762,6 @@ span:hover {
      }
      .listetta li {
          font-size: 20px;
-     }
-     .selettori {
-         width: 70%;
      }
 
 
