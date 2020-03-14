@@ -3,12 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-[class*="col-"] {
-  float: left;
-}
 
-
-@media screen and  (max-width: 767px)  {
+/* @media screen and  (max-width: 767px)  {
     .album img {
           width: 250px;
 
@@ -92,6 +88,10 @@
           height: 70px;
           margin-top: -300px;
       }
+      .principale {
+        padding-bottom: 1500px;
+      }
+
 
 
 }
@@ -144,12 +144,13 @@
          font-size: 9px;
       }
       .principale {
-         height:1800px;
+        padding-bottom: 1800px;
       }
 
 
 
 }
+
 @media screen and (min-width:992px) and (max-width: 1200px)  {
 
     .container-flex  {
@@ -181,9 +182,7 @@
      .selettori {
          width: 70%;
      }
-     .principale {
-        height:1800px;
-     }
+
 
 
 }
@@ -200,7 +199,7 @@
     #spotifyfanta {
         display: none;
     }
-}
+} */
 /* ------------------header ---------------------*/
 #spotifyfanta {
     font-size: 40px;
@@ -422,9 +421,7 @@ span:hover {
 }
 .principale {
     background-color:#141922;
-    /* text-align: right; */
-    /* position: relative; */
-    height: 1500px;
+    /* height: 1500px; */
     width:88%;
     z-index: 1;
     position: relative;
@@ -562,26 +559,102 @@ span:hover {
 
 
 
-/* footerrrrrrrrrrrrrrrrrrrrrrrrr */
-.fine a {
-    color: white;
+/* footerrrrrrrrrrrrrrrrrrrrrrrrr--------------------------------------------- */
+
+
+.barra-uno {
+
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    width: 33%;
+    justify-content:flex-start;
+    align-items: center;
 }
+.barra-due {
+
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    width: 33%;
+    justify-content:center;
+    height: 100px;
+    align-items:center;
+}
+.barra-tre {
+
+    display: flex;
+    flex-direction: row;
+    background-color:orange;
+    width: 33%;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.barra1 {
+    background-color: white;
+    width: 150px;
+    /* height: 200px; */
+
+}
+.barra2 {
+    background-color: grey;
+    width: 200px;
+    /* height: 200px; */
+}
+.barra2>a {
+    font-size: 16px;
+    margin: 10px;
+}
+#piccola {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+
+}
+.container-flex2{
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        /* justify-content: flex-start;
+        background-color: #141922; */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .player {
     /* height: 500px; */
     /* background-color: #282828; */
     width: 100%;
+    margin-top: 90px;
 
 }
-.barra {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.fine {
 
-}
 #madonna {
     position: fixed;
     background-color: #282828;
@@ -592,10 +665,7 @@ span:hover {
     border-color: #2c3e50;
     height: 100px;
 }
-#piccola {
-    height: 50px;
-    margin: 20px;
-}
+
 .fine i {
     margin: 15px;
     color: #b2b5b8;
@@ -615,15 +685,10 @@ span:hover {
     font-size: 15px;
     margin-right: 40px;
 }
-.sel {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
 
-.disotto  {
+
+/* .disotto  {
     border-bottom: 4px solid white;
     width: 200px;
     align-content: center;
@@ -633,95 +698,9 @@ span:hover {
     border-radius: 60%;
     display: block;
 
-}
-.disotto:hover {
-    border-bottom:4px solid green;
-}
-.difianco {
-    border-bottom: 4px solid white;
-    width: 50px;
-    align-content: center;
-    margin-left: 177px;
-    margin-right: 100px;
-    margin-top: 22px;
-    align-items: center;
-    border-radius: 60%;
-}
-.difianco:hover {
-    border-bottom:4px solid green;
-}
-.difianco2 {
-    border-bottom: 4px solid grey;
-    width: 50px;
-    align-content: center;
-    margin-left: -100px;
-    margin-right: 20px;
-    margin-top: 22px;
-    align-items: center;
-
-}
-#point:hover {
-    color:green;
-
-}
-
-#point {
-    position: absolute;
-    margin-top: -21px;
-    font-size: 10px;
-    margin-left: 245px;
-    display: block;
-}
-.disopra {
-    border-bottom: 3px solid grey;
-    width: 500px;
-    align-content: center;
-    margin-bottom: -1px;
-    position: relative;
+} */
 
 
-}
-.disopra i{
-    margin-left: 50px;
-}
-.zero {
-    margin-top: 30px;
-    margin-right: 25px;
-}
-.comandi {
-    margin-right: -200px;
-
-}
-
-
-.quattro {
-    margin-top: 30px;
-    margin-left: 25px;
-}
-.time {
-    color: white;
-}
-.selettoripic {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-
-}
-
-.album {
-
-    position: relative;
-}
-
-.album2 {
-    position: relative;
-}
-.album3 {
-    position: relative;
-}
-.player {
-    margin-top: 90px;
-}
 /* .................................. */
 .immagineplus {
     opacity: 0.5;
@@ -765,4 +744,207 @@ span:hover {
 
 .album3:hover .immagineplus {
     display: block;
+}
+/* ---------------------------------------------------- */
+
+@media screen and  (max-width: 767px)  {
+    .album img {
+          width: 250px;
+
+      }
+
+      .listetta li {
+          font-size: 70%;
+          flex-wrap: wrap;
+      }
+      .principale {
+
+          height: 2000px;
+
+      }
+      .lista1-flex  {
+
+       /* display: none; */
+
+      }
+      .sinistra-flex li  {
+
+         display: none;
+
+      }
+      .sinistra #playlist {
+          display: none;
+      }
+      #lista11 {
+          display: none;
+      }
+      #playlist {
+          display: none;
+      }
+      .iconcina-flex {
+          display: none;
+      }
+      .installa-flex {
+          display: none;
+      }
+      #logo {
+          display: none;
+      }
+      .daje #app {
+          display: none;
+      }
+      .laterale>.installa-flex , .iconcina-flex {
+          margin-top: 500px;
+
+      }
+      .barra {
+         font-size: 30%;
+      }
+      .fine i {
+          font-size: 5px;
+      }
+      .selettori i {
+          font-size: 4px;
+      }
+      .listetta li {
+          font-size: 20px;
+
+      }
+      .listetta>.cri {
+          width: 600px;
+
+      }
+
+      .sel  {
+          display: none;
+      }
+      .disopra {
+          display: none;
+      }
+      .selettoripic {
+          display: none;
+      }
+
+      .disotto {
+          display: none;
+
+      }
+      .principale {
+        padding-bottom: 1800px;
+      }
+      .difianco2 .difianco {
+          display: none;
+      }
+      .quattro .zero .comandi {
+          display: none;
+      }
+      .fine {
+          font-size: 10px;
+      }
+
+
+}
+@media screen and (min-width:768px) and (max-width: 991px)  {
+.container-flex  {
+        flex-wrap: wrap;
+        align-items: flex-start;
+        flex-direction:row;
+        display: flex;
+
+    }
+    .album img {
+          width: 250px;
+          margin: 10px;
+
+      }
+      .lista1-flex {
+
+        font-size:80%;
+        margin-left: -10px;
+
+      }
+      .sinistra-flex li {
+
+         font-size: 90%;
+
+      }
+      #lista11fantasma {
+          display: none;
+      }
+      .principale {
+
+          height: 2000px;
+
+      }
+      .listetta li {
+          font-size: 18px;
+
+      }
+      .listetta>.cri {
+          width: 700px;
+
+      }
+      #lista11> li {
+          font-size: 8px;
+
+
+      }
+      #lista22>li {
+         font-size: 9px;
+      }
+      .principale {
+        padding-bottom: 1800px;
+      }
+
+
+
+}
+
+@media screen and (min-width:992px) and (max-width: 1200px)  {
+
+    .container-flex  {
+        flex-wrap: wrap;
+    }
+
+    #lista11fantasma {
+        display: none;
+    }
+   .album img {
+         width: 180px;
+         margin: 10px;
+
+     }
+     .lista1-flex {
+
+       font-size:80%;
+       margin-left: -10px;
+
+     }
+     .sinistra-flex li {
+
+        font-size: 90%;
+
+     }
+     .listetta li {
+         font-size: 20px;
+     }
+     .selettori {
+         width: 70%;
+     }
+
+
+
+}
+@media screen and (min-width:1192px)  {
+
+
+    #lista11fantasma {
+        display: none;
+    }
+}
+@media screen and (min-width:768px)  {
+
+    #spotifyfanta {
+        display: none;
+    }
 }
