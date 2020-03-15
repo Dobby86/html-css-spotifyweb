@@ -206,9 +206,11 @@
 }
 a:visited {
     color: white;
-    text-decoration: none;
-
+    text-decoration:none;
 }
+
+
+
 span:hover {
     color:white;
     cursor: pointer;
@@ -368,7 +370,7 @@ span:hover {
     display: flex;
     flex-direction: row;
 
-    width: 33%;
+    width: 30%;
     justify-content:flex-start;
     align-items: center;
     background-color: #282828;
@@ -384,12 +386,41 @@ span:hover {
     align-items:center;
     background-color: #282828;
 }
+.speciale-uno  {
+    width: 2%;
+    background-color: #282828;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:ce;
+    align-items: center;
+}
+.speciale-due  {
+    width: 2%;
+    background-color: #282828;
+
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+#zero {
+    margin-top: 20px;
+    color: white;
+}
+#quattro {
+    color: white;
+    margin-top: 20px;
+}
+
+
 .barra-tre {
 
     display: flex;
     flex-direction: row;
     background-color: #282828;
-    width: 33%;
+    width: 30%;
     justify-content:center;
     align-items: center;
     height: 100px;
@@ -399,7 +430,6 @@ span:hover {
 .barra1 {
 
     width: 120px;
-    /* height: 200px; */
     background-color: #282828;
 
 }
@@ -412,7 +442,6 @@ span:hover {
     background-color: grey;
     width: 350px;
     height: 3px;
-    /* margin-top: 30px; */
     position: relative;
     margin-bottom: 30px;
     flex-grow: 1;
@@ -423,11 +452,16 @@ span:hover {
     width:200px;
     height: 3px;
     margin-top:12px;
-
     position: absolute;
     display: none;
     margin-left: -223px;
 
+}
+
+#dot {
+    color: grey;
+    margin-left: 195px;
+    
 }
 
 .barra-due:hover .barra222 {
@@ -454,6 +488,11 @@ span:hover {
     position: relative;
 
 }
+.barra1>a {
+    font-size: 13px;
+    margin: 10px;
+}
+
 
 .barra2>a {
     font-size: 18px;
@@ -477,21 +516,14 @@ span:hover {
         background-color: #141922; */
 
 }
-#zero {
-    margin-top: -29px;
-    color: white;
-}
-#quattro {
-    color: white;
-    margin-top: 0px;
+
+
+/* visited link */
+/* .barra1>a :visited {
+  color: blue;
 }
 
-
-
-
-
-
-
+ */
 
 
 
