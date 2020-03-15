@@ -461,7 +461,7 @@ span:hover {
 #dot {
     color: grey;
     margin-left: 195px;
-    
+
 }
 
 .barra-due:hover .barra222 {
@@ -473,7 +473,7 @@ span:hover {
     height: 3px;
     position: absolute;
     display: none;
-    /* margin-left: -223px; */
+
 
 }
 .barra-tre:hover .barra333 {
@@ -502,12 +502,7 @@ span:hover {
     font-size: 16px;
     margin: 10px;
 }
-#piccola {
-    height: 100px;
-    width: 80px;
-    margin: 20px;
 
-}
 .container-flex2{
         display: flex;
         flex-wrap: wrap;
@@ -516,15 +511,6 @@ span:hover {
         background-color: #141922; */
 
 }
-
-
-/* visited link */
-/* .barra1>a :visited {
-  color: blue;
-}
-
- */
-
 
 
 /* ///////////////////////////////////////////vecchio */
@@ -558,7 +544,8 @@ span:hover {
     height: 100px;
 }
 #piccola {
-    height: 50px;
+    height:60px;
+    width: auto;
     margin: 20px;
 }
 
@@ -707,6 +694,70 @@ span:hover {
       .principale {
         padding-bottom: 1800px;
       }
+      .barra-uno {
+
+          width: 20%;
+
+      }
+      /* ------------------------- */
+      .barra-due {
+          margin-left:50px;
+
+          width: 30%;
+
+      }
+      .barra-uno {
+
+          width:25%;
+
+      }
+      #piccola {
+          height: 50px;
+          width: auto;
+          margin:10px;
+
+      }
+      .barra1>a {
+          font-size: 9px;
+          margin: 5px;
+      }
+
+      .barra2>a {
+          font-size: 11px;
+          margin: 5px;
+      }
+
+      .barra3>a {
+          font-size: 8px;
+          margin: 0px;
+      }
+      .barra-tre {
+          justify-content:flex-end;
+          align-items: center;
+          margin-left:50px;
+          width: 20%;
+
+      }
+
+      #quattro {
+          font-size: 10px;
+          margin-left: 40px;
+      }
+      #zero {
+          font-size: 10px;
+          margin-left: 10px;
+
+      }
+      .barra33 {
+          width: 70%;
+      }
+      .barra333 {
+          width: 70%;
+
+      }
+
+
+
 
 
 
@@ -762,6 +813,61 @@ span:hover {
       .principale {
         padding-bottom: 1800px;
       }
+      /* ---------------------- */
+      .barra-due {
+          margin-left:50px;
+          width: 25%;
+
+      }
+      .barra-uno {
+
+          width:25%;
+
+      }
+      #piccola {
+          height: 50px;
+          width: auto;
+          margin:10px;
+
+      }
+      .barra1>a {
+          font-size: 9px;
+          margin: 5px;
+      }
+
+      .barra2>a {
+          font-size: 11px;
+          margin: 5px;
+      }
+
+      .barra3>a {
+          font-size: 10px;
+          margin:2px;
+      }
+      .barra-tre {
+
+          margin-left:50px;
+          width: 30%;
+
+      }
+      #quattro {
+          font-size: 10px;
+          margin-left: 40px;
+      }
+      #zero {
+          font-size: 10px;
+          margin-left: 10px;
+
+      }
+      .barra33 {
+          width: 70%;
+      }
+      .barra333 {
+          width: 70%;
+
+      }
+
+
 
 
 
@@ -795,6 +901,63 @@ span:hover {
      .listetta li {
          font-size: 20px;
      }
+     .barra-due {
+         margin-left:50px;
+         width: 30%;
+
+     }
+     .barra-uno {
+
+         width:20%;
+
+     }
+     #piccola {
+         height: 50px;
+         width: auto;
+         margin:10px;
+
+     }
+     .barra1>a {
+         font-size: 13px;
+         margin: 5px;
+     }
+
+     .barra2>a {
+         font-size: 15px;
+         margin: 5px;
+     }
+
+     .barra3>a {
+         font-size: 13px;
+         margin:2px;
+     }
+     .barra-tre {
+
+         margin-left:50px;
+         width: 20%;
+
+     }
+     #quattro {
+         font-size: 10px;
+         margin-left: 40px;
+     }
+     #zero {
+         font-size: 10px;
+         margin-left: 10px;
+
+     }
+     .barra33 {
+         width: 70%;
+     }
+     .barra333 {
+         width: 70%;
+
+     }
+
+
+
+
+
 
 
 
