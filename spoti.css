@@ -14,7 +14,7 @@
 .laterale {
     background-color: black;
     position: relative;
-    height: 1000px;
+    height:1000px;
     width: 12%;
     position: fixed;
 
@@ -97,6 +97,7 @@
     color:#b2b5b8;
     font-size: 15px;
     margin-left: 20px;
+    line-height: 50px;
 }
 #lista22 {
     margin-left: 15px;
@@ -166,11 +167,13 @@
     font-size: 15px;
     margin: 6px;
 
+
 }
 #faccina {
     font-size: 30px;
     color: #b2b5b8;
     border-radius: 100px;
+    line-height: 50px;
 }
 /* #john {
     color:#b2b5b8;
@@ -228,7 +231,7 @@ span:hover {
 }
 .principale {
     background-color:#141922;
-    /* height: 1500px; */
+    height: calc(100%-200px);
     width:88%;
     z-index: 1;
     position: relative;
@@ -412,6 +415,7 @@ span:hover {
 #quattro {
     color: white;
     margin-top: 20px;
+
 }
 
 
@@ -746,6 +750,7 @@ span:hover {
       #zero {
           font-size: 10px;
           margin-left: 10px;
+
 
       }
       .barra33 {
